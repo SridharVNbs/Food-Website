@@ -1,0 +1,93 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: chocolate;
+    color: #333;
+  }
+  
+  .payment-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .payment-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .payment-header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .payment-header p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .payment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .payment-method select {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .payment-method {
+    margin-bottom: 15px;
+  }
+  
+  .payment-method select {
+    padding: 10px;
+  }
+  
+  .total-price {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .payment-btn {
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-btn:hover {
+    background-color: #b74a1b;
+  }
+  
+  .payment-btn:active {
+    background-color: #1e7e34;
+  }
+  

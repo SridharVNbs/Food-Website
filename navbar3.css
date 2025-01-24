@@ -1,0 +1,90 @@
+header {
+    background-color: rgb(238, 238, 246);
+    height: 4rem;
+    z-index: 4;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    width: 100vw;
+}
+
+.brand {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: xx-large;
+    color: #0f0a0a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    line-height: 4rem;
+    margin: 0 3rem;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links li {
+    list-style: none;
+    margin-right: 2rem;
+}
+.nav_links li a {
+    text-decoration: none;
+    color: #080101;
+}
+
+.nav_links li:hover {
+    transform: translateY(-3px);
+}
+
+.nav_links li:hover a {
+    color: #FF9C73;
+}
+
+.nav_links li a span {
+    color: orange;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(245, 236, 236, 0.9);
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 0px 12px;
+    display: block;
+    text-decoration: none;
+    margin: -10px 0 -20px 0;
+    white-space: nowrap;
+}
+
+.dropdown-content a:hover {
+    background-color: #e5dfdf;
+    border-radius: 7px;
+    color: orange; 
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav_links li:hover .dropdown-content a {
+    color: white;
+}
+
+.sign-in {
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}

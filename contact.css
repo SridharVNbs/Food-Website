@@ -1,0 +1,78 @@
+
+footer{
+    flex-wrap: wrap;
+    display: flex;
+    padding-left: 8%;
+    padding-right: 5%;
+    margin-top: 10%;
+    color: black;
+}
+.footer{
+    flex-direction: row;
+}
+
+.footer a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.footer p{
+    margin-top: 10px;
+}
+.Resources h5{
+    margin-left: 40px;
+}
+.Resources  a{
+    margin-left: 40px;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none; 
+}
+.OurPolicy h5{
+    margin-left: 40px;
+}
+.OurPolicy a{
+    margin-left: 40px;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.hr{
+    border-left: 1px solid black;
+    height: 300px;
+    margin: 10px;
+    padding: 10px;
+}
+.follow{
+    margin-left: 40px;
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;   
+}
+.follow h5{
+    
+}
+.icon a i{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.follow p{
+    margin-top: 20px;
+}
+.app a img{
+    width: 200px;
+    margin-top: 20px;
+}
+.blue:hover{
+    color: skyblue;
+}
+.pink:hover{
+    color: rgb(237, 9, 47);
+}
+.white:hover{
+color: black;
+}
+.red:hover{
+    color: red;
+}
